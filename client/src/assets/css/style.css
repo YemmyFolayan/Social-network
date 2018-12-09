@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #535353;
+}
+
+a {
+  color: #065fd4;
+}
+
+.full-height {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.show-feedback {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #80bdff;;
+}
+
+.form-spinner {
+  color: #80bdff;
+  margin-left: 10px;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.show {
+  opacity:  1;
+  visibility: visible;
+  display: block;
+}
+
+.dropdown-menu {
+  padding: 0;
+}
+
+.nav-link.dropdown-toggle {
+  font-size: 14px;
+}
+
+#app-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea::-moz-placeholder,
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea:-moz-placeholder,
+input:-moz-placeholder { /* Firefox 18- */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+
+input.form-control,
+textarea.form-control {
+  border-radius: 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+input.form-control:focus,
+textarea.form-control:focus,
+.custom-select.is-invalid:focus, 
+.form-control.is-invalid:focus, 
+.was-validated .custom-select:invalid:focus, 
+.was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+
+.form-control:disabled, 
+.form-control[readonly] {
+  background: transparent;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,.075);
+}
+
+.form-control {
+  padding-left: 0;
+}
